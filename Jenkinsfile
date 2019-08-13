@@ -1,4 +1,7 @@
 pipeline {
+    environment {
+        PATH = ${env.PATH}
+    }
     agent none
     stages {
         stage('Build') {
