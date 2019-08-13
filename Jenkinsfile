@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        PATH = ${env.PATH}
+        PATH = "${env.PATH}"
     }
     agent none
     stages {
