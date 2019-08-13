@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        PATH = "${env.PATH}"
+        PATH = "C:\\Program Files\\Git\\usr\\bin;${env.PATH}"
     }
     agent none
     stages {
